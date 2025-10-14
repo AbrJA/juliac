@@ -15,7 +15,7 @@ clean:
 	rm -f abcd 
 
 JULIAC_SCRIPT=./juliac/juliac.jl
-JULIA=julia +nightly
+JULIA=julia
 FLAGS=--experimental --trim
 
 hello: hello.jl
